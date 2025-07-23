@@ -42,9 +42,10 @@
             <p>Crocante por fora macio por dentro e suuper recheado! Massa de ninho, recheio de Nutella, gotas de chocolate nobre branco, finalizado com névoa de leite ninho.</p>
             <p>R$: 15,00</p>
             <!-- Botao de conpra -->
-<button class="btn-comprar" src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" onclick="comprarCookie('Cookie Ninho/Nutella')">
-    Comprar Agora
-</button>
+            <button class="btn-comprar" onclick="comprarCookie('Nome do Cookie', 15)">
+                Comprar Agora
+            </button>
+            
         </div>
         
         <div class="card-cookie">
@@ -218,7 +219,8 @@ Cookie salgado com uma massa leve e saborosa, recheado com carne de panela e che
         window.open(urlWhatsApp, '_blank');
     }
 </script>
-    <script>
+
+<script>
     let carrinho = [];
 
     function comprarCookie(nomeCookie, preco = 15.00) {
